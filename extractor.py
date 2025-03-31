@@ -123,7 +123,7 @@ with open("requirements.txt", "w") as req_file:
 # Example usage
 if __name__ == "__main__":
     setup_logging()
-    pdf_file_path = "Field_Catalogue.pdf"  # Replace with your PDF file path
+    pdf_file_path = "YOUR PDF NAME HERE"  # Replace with your PDF file path
     output_directory = "images"  # Replace with your desired output directory
     extract_images_from_pdf(pdf_file_path, output_directory)
     print("Requirements saved to 'requirements.txt'. Use 'pip install -r requirements.txt' to install dependencies.")
